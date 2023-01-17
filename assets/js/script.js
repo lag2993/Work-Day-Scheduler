@@ -1,9 +1,22 @@
 
-
 $(document).ready(function () {
     // Update Date for Header
+    // Grab Date information and store in variables
     var currentDate = new Date();
-    $('#currentDay').text(currentDate);
+    var  headerDate = currentDate.getDate();
+    if(headerDate>3&&headerDate<21){
+      headerDate = headerDate+"th";
+    }else if((headerDate%10)=== 1){
+      headerDate = headerDate+"st";
+    }else if((headerDate%10)=== 2){
+      headerDate = headerDate+"nd";
+    }else if((headerDate%10)=== 3){
+      headerDate = headerDate+"rd";
+    }
+    var headerDay = currentDate.toLocaleDateString('en', {weekday:'short'})
+    var headerMonth = currentDate.toLocaleDateString('en', {month:'long'})
+    // Update header
+    $('#currentDay').text("on "+headerDay+", "+headerDate+ " of "+ headerMonth);
     // Get saved user inputted tasks.  
     $('#hour-9 .description').val(localStorage.getItem('hour-9'));
     $('#hour-10 .description').val(localStorage.getItem('hour-10'));
@@ -58,6 +71,7 @@ $(document).ready(function () {
       });
 
   }
+  // run function to update blocks. 
   blockUpdtr();
 
 });
