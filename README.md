@@ -18,11 +18,16 @@ N/A
   MIT License
 
 ## Link to  Deployed Project Website 
+https://lag2993.github.io/Work-Day-Scheduler/
 
 ##Screen Shots
 Main Page
 
+![WorkDayScheduler](https://user-images.githubusercontent.com/119230237/213037720-9325b5b8-cc0c-4f96-866c-4c94fea84cff.JPG)
 
+With Task written
+
+![WorkDaySchedulerWithTask](https://user-images.githubusercontent.com/119230237/213037753-1fbc1d53-078e-4344-968a-dd82ed1781d1.JPG)
   
 ---  
 ## User Story
