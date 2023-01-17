@@ -8,7 +8,10 @@
 N/A
 
 ## Usage
-  Work Day Scheduler lets user add important events to a daily planner by clicking into a timeblock. User is able to enter an event and save to local storage by pressing the save button to the right of each block. Tasks persists through refresh unless user clears local storage or stores an empty task in the block. Each block is dynamically color coded to indicate whether it is in the past, present or future according to the local time of computer.   
+  Work Day Scheduler lets user add important events to a daily planner by clicking into a timeblock. User is able to enter an event and save to local storage by pressing the save button to the right of each block. Tasks persists through refresh unless user clears local storage or stores an empty task in the block. Each block is dynamically color coded to indicate whether it is in the past, present or future according to the local time of computer.  
+  Grey is for past events.
+  Red is for present events.
+  Green is for future events. 
 ## Credits
   N/A
 ## License
